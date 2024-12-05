@@ -1,0 +1,97 @@
+/* IS117005 Fall 2024
+Jeremy Convocar */
+.avatars {
+	width: 150px;
+}
+h1 {
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	font-family: garamond, serif;
+}
+h2 { /* for the sources page */
+	font-size: 28px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+h3 {
+}
+p.my-text{
+	font-size: 20px;
+	color: black;
+	font-family: garamond, serif;
+}
+p.my-text-light{
+	font-size: 20px;
+	color: white;
+	font-family: garamond, serif;
+}
+p.sources{
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+}
+a.caps{
+	font-size: 30px;
+	font-family: garamond, serif;
+	font-style: bold;
+	text-align: center;
+	color: white;
+}
+.box {
+	background-color: #e8e4b0;
+	border: solid;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card {
+	width: 25%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: #ad9f6c;
+}
+.container {
+	padding: 5px 16px;
+	width: 100%;
+}
+.map-container {
+	width: 430px;
+	border-style: solid;
+	padding: 5px 16px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: -100px;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    font-size: 0.5rem;
+	font-family: garamond, serif;
+}
+.form-group {
+	font-family: garamond, serif;
+	font-size: 50px;
+	color: white;
+}
+
+.pics {
+	width: 250px;
+}
+.scale-pics {
+	width: 100%;
+}
+.artview-container {
+	width: 70%;
+	background-color: #4d2f29;
+	padding: 10px;
+	border: solid;
+}
+.scroll-container {
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+	width: 100%;
+}
+.map-container {
+	background-color: #667d55;
+}
