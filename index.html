@@ -1,26 +1,33 @@
 <!DOCTYPE html>
+<!-- DEVELOPER: Jeremy Convocar, IS117-005, Fall 2024 ->
+
+<!-- IS117005 Fall 2024
+Jeremy Convocar -->
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <title>The Jersey Devil - The Cryptid of the Garden State</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
-
 </head>
-<body>
+
+<body style="background-color:rgb(99, 87, 51)">
 <div class="container-fluid">
     <div class="row">
+			<!-- NAV BAR SHOULD BE THE SAME FOR ALL PAGES! -->
             <nav class="navbar navbar-expand-md
                     justify-content-start
                     bg-dark navbar-dark
                     col-12">
 
                 <!-- Brand -->
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="main.html">The Jersey Devil</a>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -28,61 +35,126 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
-                        <!-- Links -->
+                        <!-- Links and Dropdown -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link 1</a>
+                            <a class="nav-link" href="index.html">Background Information</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-
-                        <!-- Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
                                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Education
+                                History
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                                <a class="dropdown-item" href="#">Link 4</a>
+                                <a class="dropdown-item" href="history_1700.html">1700s</a>
+                                <a class="dropdown-item" href="history_1800.html">1800s</a>
+                                <a class="dropdown-item" href="history_1900.html">1900s</a>
+                                <a class="dropdown-item" href="history_modern.html">Modern Day</a>
                             </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Image Gallery
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="sightings.html">Reported Sightings</a>
+                                <a class="dropdown-item" href="artwork_gallery.html">Artwork</a>
+                            </div>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="fun_facts.html">Fun Facts!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="sources.html">Sources</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-        </div>
-    <div class="col-sm-4  text-center">
-        <h2>h2 Bootstrap heading (24px)</h2>
-        <h3>h2 Bootstrap heading (18px)</h3>
-    </div>
-</div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
-        </div>
-     </div>
-  </footer>
+		<div class="container">
+			<div style="display: flex;">
+				<!-- HTML CARD as required by P4 assignment -->
+				<div class="card" align="left">
+					<img class="avatars" src="image_avatar.png" alt="Avatar">
+					<div class="container">
+						<h4><b>Jeremy Convocar (a.k.a. StardustLegend)</b></h4>
+						<p>Website Owner and Designer</p>
+						<p>also a Furry artist, musician and game dev!</p>
+					</div>
+				</div>
+				<div align="right">
+					<img class="scale-pics" src="Jersey-Devil-2018.jpg">
+				</div>
+			</div> 
+		</div>
+		<!-- -->
+		<div class="container">
+          <div style="display: flex;">
+				<div class="artview-container" align="right">
+					<figure>
+						<img class="pics" src="the campfire poster.png" alt="art I drew of the Jersey Devil!">
+						<figcaption> <p class="my-text-light">Poster designed for my College Radio Show "The Campfire", featuring a drawing I made of the Jersey Devil! </p></figcaption>
+					</figure>
+				</div>
+				<div class="box" align="left">
+					<h1> About This website: </h1>
+					<p class="my-text">
+						Welcome to my website discussing the Background, History and Cultural significance of one of the greatest cryptids in the Americas: The Jersey Devil!
+						The mythology of the Jersey Devil is one woven into the beginnings of New Jersey as a state and America as a whole, and it's story is riddled in enigmatic 
+						background and even political fallout. What's more, the Devil's influence to the state of New Jersey is largely underappreciated but goes deep into not just the state's culture,
+						but a lot of popular culture surrounding cryptids, horror and the U.S.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--PREVIEW CONTENT ON MAIN PAGE -->
+        <div class="container">
+          <div style="display: flex;">
+		  		<!-- PREVIEW OF IMAGE/ARTWORK GALLERY -->
+				<div class="artview-container" align="left">
+					<figure>
+						<div class="scroll-container">
+							<a href="artwork_gallery.html"><img class="pics" src="JerseyDevil1.jpg" alt="jersey devil art example 1"></a>
+							<a href="artwork_gallery.html"><img class="pics" src="jersey-devil-horse-head.jpg" alt="jersey devil art example 2"></a>
+							<a href="artwork_gallery.html"><img class="pics" src="the campfire poster.png" alt="art I drew of the Jersey Devil!"></a>
+							<a href="artwork_gallery.html"><img class="pics" src="JerseyDevilArt1.jpg"alt="jersey devil art example 3"></a>
+							<a href="artwork_gallery.html"><img class="pics" src="the_jersey_devil_by_aki_san24_de7z1gc-414w-2x.jpg"alt="jersey devil art example 4"></a>
+						</div>
+						<figcaption>
+								<a class="caps" href="artwork_gallery.html" width="100"> Click here or on one of the artworks to view various artworks of the Jersey Devil collected throughout the Internet! </a> 
+						</figcaption>
+					</figure>
+				</div>
+				<!-- LINK TO MAP AND SIGHTINGS -->
+				<div class="map-container" align="right">
+					<figure>
+						<img class="scale-pics" src="NJ_HISTORIC_MAP.jpg" width="300" align="center" alt="Map of New Jersey">
+						<figcaption><a class="caps" href="sightings.html"> Want to know where the Jersey Devil's been spotted? Click here... </a></figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<p class="my-text">
+				This website was made as part of my IS117 final class project under professor Mark Chiusano.
+				I wanted this website to be about a subject that I take great interest in and am extremely passionate about,
+				and the Jersey Devil happens to be a cryptid I have done much research for in the past for things like my 
+				radio show in the WJTB Radio club at NJIT.
+			</p>
+		</div>
+	</div>
 </div>
 
+
+ <footer class="footer page-footer font-small ">
+	<div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Jeremy Convocar 2024</span>
+        </div>
+    </div>
+</footer>
 
     <!-- Javascript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
